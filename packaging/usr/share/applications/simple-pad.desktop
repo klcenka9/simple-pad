@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Simple Pad
+Comment=Batch-aware text editor
+Exec=simple-pad
+Terminal=false
+Categories=Utility;TextEditor;Development;
