@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Simple Pad
+Label: Simple Pad
+Suite: stable
+Codename: stable
+Architectures: all
+Components: main
+Date: Thu, 10 Sep 2026 18:50:21 +0000
+MD5Sum:
+ a179a9d8540520e957ba0c11e04f6ab7 381 main/binary-all/Packages
+ 59d2dc9b1288d8e96403f6f9e3e91cce 301 main/binary-all/Packages.gz
+SHA256:
+ 0e51238dc65c27693d4e09ac76c349a607b200055333289d0c05326da339e68a 381 main/binary-all/Packages
+ 40d3bfa78b6bf03520ea2c5ae807916aae3300daf7b74c93c5ad8346fe69b749 301 main/binary-all/Packages.gz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6x61eUn21VevTG8aTeYMDk3au6UFAmqi++0ACgkQTeYMDk3a
+u6XxhA//d/Ncf/+aThXyMhQaniS1zXziH5MlIWZ1yw65p3+NC+ENAs9mLs6+dAJl
+VcKZYpjH4XqaDRWwz6rMBHBNhMV4rzsyAIrpaepQOzPtwlq3ZF2oX3Q6LDZp4HjE
+HDVTujuFWdUcZSk3D58gIUflQwx2doRDBAYAHUq2/A6y78Pu5awJk27y62vjki++
+NwVJcEALPvh1OHcrYeN4cWybkSjirH6DGEneCN9xwbzRVZTl33pvJlF5mfPbid9T
+eGosvBjUfy2V/jvQneds5uAE+qsOwzRpeCsuA/yy6OqlRAfAVQSVcJbtkXMdvs7K
+QQpvnfLPkhmiIg22Ij1f5lWfZ4Lq7Jnz+yc+47aksxtypJ3TWFB1AkTik5VzfW6z
+9XG9GvZCn62TKbn8LUKkZ1YmHaX2+s2JE1nHjedk9CQ5x5Np9XQVxpc1sFx7tipO
+2y/I0R/DLWbTbfxyPwY/v/9vZDqfCNENiVvKtzfJniRYX9RldN+8lx0Ed4JzDhl8
+L+AyU1YJ4J7gh52cNUTiReRkQWE1/vZrD0kNIR03KY+dqc9UNAjfARfQt3VpE7AO
+TxQxAlkv4OtDQVFP0Ce/a5T0uuBg5hR/ooaaN4Uj0GLl3BJoo5rhCvf/gYBv4dpO
+Sa6qHmI31rCknizosio5+KkaSmW4X9ISHKjahSay4pKPjDinPHg=
+=K4uY
+-----END PGP SIGNATURE-----
