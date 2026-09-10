@@ -18,4 +18,4 @@ chmod 755 "$stage/usr/bin/simple-pad"
 printf '2.0\n' > "$work/debian-binary"
 tar --owner=0 --group=0 -C "$stage/DEBIAN" -cJf "$work/control.tar.xz" .
 tar --owner=0 --group=0 --exclude='./DEBIAN' -C "$stage" -cJf "$work/data.tar.xz" .
-ar r "$output/simple-pad_1.0.0_all.deb" "$work/debian-binary" "$work/control.tar.xz" "$work/data.tar.xz"
+ar r "$output/simple-pad_1.0.1_all.deb" "$work/debian-binary" "$work/control.tar.xz" "$work/data.tar.xz"
