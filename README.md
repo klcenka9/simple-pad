@@ -2,6 +2,8 @@
 
 Lightweight text editor with Batch syntax highlighting.
 
+Licensed under the [MIT License](LICENSE). See [Terms of Service](TERMS_OF_SERVICE.md).
+
 ## Install on Linux Mint
 
 ```bash
