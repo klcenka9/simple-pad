@@ -16,7 +16,7 @@ install -m 644 "$package" "$pool/simple-pad_1.0.0_all.deb"
 
 size="$(stat --format='%s' "$pool/simple-pad_1.0.0_all.deb")"
 sha256="$(sha256sum "$pool/simple-pad_1.0.0_all.deb" | cut -d' ' -f1)"
-printf 'Package: simple-pad\nVersion: 1.0.0\nArchitecture: all\nMaintainer: klcenka9\nDepends: default-jre | openjdk-21-jre\nFilename: pool/main/s/simple-pad/simple-pad_1.0.0_all.deb\nSize: %s\nSHA256: %s\nDescription: Lightweight Batch-aware text editor\n Simple Pad is a lightweight editor with syntax highlighting for Batch files.\n' "$size" "$sha256" > "$binary/Packages"
+printf 'Package: simple-pad\nVersion: 1.0.0\nArchitecture: all\nMaintainer: klcenka9\nDepends: openjdk-21-jre\nFilename: pool/main/s/simple-pad/simple-pad_1.0.0_all.deb\nSize: %s\nSHA256: %s\nDescription: Lightweight Batch-aware text editor\n Simple Pad is a lightweight editor with syntax highlighting for Batch files.\n' "$size" "$sha256" > "$binary/Packages"
 gzip -9c "$binary/Packages" > "$binary/Packages.gz"
 
 hash() {

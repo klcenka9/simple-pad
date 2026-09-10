@@ -3,7 +3,7 @@ Version: 1.0.0
 Section: editors
 Priority: optional
 Architecture: all
-Depends: default-jre | openjdk-21-jre
+Depends: openjdk-21-jre
 Maintainer: klcenka9
 Description: Lightweight Batch-aware text editor
  Simple Pad is a lightweight editor with syntax highlighting for Batch files.

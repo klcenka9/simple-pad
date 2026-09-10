@@ -2,9 +2,9 @@ Package: simple-pad
 Version: 1.0.0
 Architecture: all
 Maintainer: klcenka9
-Depends: default-jre | openjdk-21-jre
+Depends: openjdk-21-jre
 Filename: pool/main/s/simple-pad/simple-pad_1.0.0_all.deb
-Size: 6068
-SHA256: 763bf1a2075c85c792c6640e43300b7ebdb79b70a174d6ac1442e891585b4698
+Size: 6064
+SHA256: de7f5a5e894fc2f8038800f5083b8b828123296a63ba47cbedc0b7e102790024
 Description: Lightweight Batch-aware text editor
  Simple Pad is a lightweight editor with syntax highlighting for Batch files.
