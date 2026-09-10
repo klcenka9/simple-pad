@@ -15,6 +15,14 @@ sudo apt install simple-pad
 
 Run it from the application menu or with `simple-pad`.
 
+## Terminal version
+
+```bash
+simple-pad-cli example.bat
+```
+
+Use `/help` inside the editor to see the available commands.
+
 ## Build a package
 
 ```bash
