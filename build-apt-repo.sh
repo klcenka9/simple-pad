@@ -3,7 +3,7 @@ set -euo pipefail
 
 root="$(dirname "$(readlink -f "$0")")"
 repository="$root/docs"
-package="$root/dist/simple-pad_1.0.2_all.deb"
+package="$root/dist/simple-pad_1.0.3_all.deb"
 key="EB1EB57949F6D557AF4C6F1A4DE60C0E4DDABBA5"
 distribution="$repository/dists/stable"
 binary="$distribution/main/binary-all"
@@ -12,11 +12,11 @@ pool="$repository/pool/main/s/simple-pad"
 "$root/build-deb.sh"
 rm -rf "$repository"
 mkdir -p "$binary" "$pool"
-install -m 644 "$package" "$pool/simple-pad_1.0.2_all.deb"
+install -m 644 "$package" "$pool/simple-pad_1.0.3_all.deb"
 
-size="$(stat --format='%s' "$pool/simple-pad_1.0.2_all.deb")"
-sha256="$(sha256sum "$pool/simple-pad_1.0.2_all.deb" | cut -d' ' -f1)"
-printf 'Package: simple-pad\nVersion: 1.0.2\nArchitecture: all\nMaintainer: klcenka9\nDepends: openjdk-21-jre\nFilename: pool/main/s/simple-pad/simple-pad_1.0.2_all.deb\nSize: %s\nSHA256: %s\nDescription: Lightweight Batch-aware text editor\n Simple Pad is a lightweight editor with syntax highlighting for Batch files.\n' "$size" "$sha256" > "$binary/Packages"
+size="$(stat --format='%s' "$pool/simple-pad_1.0.3_all.deb")"
+sha256="$(sha256sum "$pool/simple-pad_1.0.3_all.deb" | cut -d' ' -f1)"
+printf 'Package: simple-pad\nVersion: 1.0.3\nArchitecture: all\nMaintainer: klcenka9\nDepends: openjdk-21-jre\nFilename: pool/main/s/simple-pad/simple-pad_1.0.3_all.deb\nSize: %s\nSHA256: %s\nDescription: Lightweight Batch-aware text editor\n Simple Pad is a lightweight editor with syntax highlighting for Batch files.\n' "$size" "$sha256" > "$binary/Packages"
 gzip -9c "$binary/Packages" > "$binary/Packages.gz"
 
 hash() {

@@ -21,7 +21,7 @@ Run it from the application menu or with `simple-pad`.
 simple-pad-cli example.bat
 ```
 
-Use `/help` inside the editor to see the available commands.
+It uses a nano-style terminal interface: arrow keys move, `Ctrl+O` saves and `Ctrl+X` exits.
 
 ## Build a package
 
